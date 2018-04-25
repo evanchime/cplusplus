@@ -16,7 +16,7 @@ using namespace std;
 //change numeric_limits template parameter accordingly 
 #define no_of_bits numeric_limits<int>::digits
 
-int main (int argc, const char *argv[]){
+int main (int argc, char *argv[]){
 
     vector<int>coll = {6,6,2,19,45,3,0};
     //user defined comp function used as third argument to sort 
